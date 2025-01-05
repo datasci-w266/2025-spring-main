@@ -54,16 +54,17 @@ By the completion of this course, students will be able to:
 
 **Teaching Staff Office Hours**
 
+* **Raymond Tang**: Monday at Noon PST
 * **Rajiv Nair**: Monday at 4pm PST
+* **Paul Spiegelhalter**: Monday at 8pm PST
 * **Natalie Ahn**: Tuesday at 6pm PST
 * **Gurdit Chahal**: Wednesday at 2:30pm PST
-* **Paul Spiegelhalter**: Monday at 8pm PST
 * **Mike Tamir**: Wednesday at 5:30pm PST
 * **Mark Butler**: Thursday at Noon PST
 * **Rachel Gao**: Thursday at 5pm PST 
+* **Jennifer Zhu**: Thursday at 6pm PST
 * **Amit Bhattacharyya**: Friday at 11am PST
-* **Jennifer Zhu**: Friday at 5pm PST
-* **Raymond Tang**: Monday at Noon PST
+
 
 
 Office hours are for the whole class; students from any section are welcome to attend any of the times above.

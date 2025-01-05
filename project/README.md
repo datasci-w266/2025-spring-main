@@ -87,7 +87,7 @@ For project ideas, take a look at the final projects from [previous](example-com
 - Analysis of gender roles or power dynamics in movie dialogues
 - Exploration of techniques for interpreting “black box” / neural models for language
 
-Additionally, we've put some of the top projects from previous semesters in [a drive folder](https://drive.google.com/drive/folders/).  The folder and its contents are available for viewing to anyone with a berkeley.edu email address.
+Additionally, we've put some of the top projects from previous semesters in [a drive folder](https://drive.google.com/drive/folders/1w_8Yug-9akEo_L_zcOpTYNdrJ75qA5_8?usp=sharing).  The folder and its contents are available for viewing to anyone with a berkeley.edu email address.
 
 Also see below for NLP conferences - [ACL](https://www.aclweb.org/anthology/events/acl-2022/) and [EMNLP](https://www.aclweb.org/anthology/events/emnlp-2022/) are the top two, and you can find plenty of interesting ideas from the recent proceedings!
 
@@ -119,7 +119,7 @@ Please write your proposal in a Google Doc (shared with comment access to anyone
 _Please NO Microsoft Word documents!_
 
 ## Task Allocation (for teams of 2 or 3)
-Each team of 2 or 3 members will submit a Google Doc that enumerates the work each individual in the team is performing as part of the project. Each team member must work on at least one model. The shared document will be submitted via [this form.](https://forms.gle/)
+In week 10, each team of 2 or 3 members will submit a Google Doc that enumerates the work each individual in the team is performing as part of the project. Each team member must work on at least one model. The shared document will be submitted via [this form.](https://forms.gle/)
 
 ## Milestone (optional)
 
