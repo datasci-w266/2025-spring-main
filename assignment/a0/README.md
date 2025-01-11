@@ -20,7 +20,7 @@ Now we'll get you all set up with the software packages and the course GitHub.
 `git clone https://github.com/datasci-w266/2025-spring-main.git ./w266`
 You will use this local copy to get updates as we post them and to store your work.  This git repo is independent of the GDrive folder. You will also submit work from this repository.
 
-4. **Create your personal submission repo** at [this link](https://classroom.github.com/a/QZL5xhbw). We'll use this for holding assignments that you have completed so the instructors can collect them for grading; it's private to you and the instructors. 
+4. **Create your personal submission repo** at [this link](https://classroom.github.com/a/jxD7Rs8V). We'll use this for holding assignments that you have completed so the instructors can collect them for grading; it's private to you and the instructors. 
 
 You'll use the submit.sh script discussed in step 8 to push things from your laptop/computer (where you do your work) to this private (to you and the instructors) classroom repo.
 
