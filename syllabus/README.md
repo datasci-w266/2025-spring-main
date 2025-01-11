@@ -63,7 +63,7 @@ By the completion of this course, students will be able to:
 * **Mark Butler**: Thursday at Noon PST
 * **Rachel Gao**: Thursday at 5pm PST 
 * **Jennifer Zhu**: Thursday at 6pm PST
-* **Amit Bhattacharyya**: Friday at 11am PST
+* **Amit Bhattacharyya**: Friday at Noon PST
 
 
 
@@ -284,6 +284,15 @@ will be released after the last live session of the week (on Friday) and due app
   <td>
   <strong><a href="../assignment/a0" target="_blank">Assignment&nbsp;0</a></strong>
 
+<!-- Assignment&nbsp;0 -->
+  <td><strong>Course Set-up</strong>
+  <ul>
+    <li>GitHub
+    <li>Ed Discussion
+  </ul></td>
+  <td>Jan&nbsp;10</td>
+  <td>Jan&nbsp;19</td>
+</tr> 
 
 
 <tr>
