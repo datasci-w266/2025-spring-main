@@ -1,0 +1,260 @@
+# Write your short answers in this file, replacing the placeholders as appropriate.
+# This assignment consists of 3 parts for a total of 100.0 points.
+# For numerical answers, copy and paste at least 5 significant figures.
+# - Machine Translation with T5 (82 points)
+# - Summarization Test (7.5 points)
+# - Summarization LLM Test (6.5 points)
+# - Correct submission (2 point)
+# - Answer file parses (2 point)
+
+
+
+###################################################################
+###################################################################
+## Machine Translation with T5 (82 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): Experiment with model dimensions (26 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1.a (/5): What is the final validation loss that you were able to achieve for the part1 model after training for 30 epochs?
+machine_translation_with_t5_1_1_a: 
+- your answer
+
+# Question 1.b (/4): Which model config parameters (if any) did you increase, to achieve a lower validation loss, while staying within the training time and overfitting guidelines?
+machine_translation_with_t5_1_1_b: 
+- your answer
+
+# Question 1.c (/4): Which model config parameters (if any) did you decrease, to achieve a lower validation loss, while staying within the training time and overfitting guidelines?
+machine_translation_with_t5_1_1_c: 
+- your answer
+
+# Question 1.d (/3): What seems to be particularly bad about the part1 model's translations?
+# (This question is multiple choice.  Delete all but the correct answer).
+machine_translation_with_t5_1_1_d: 
+ - The model keeps repeating the same common words or phrases over and over, which don't produce very meaningful statements.
+ - The model is generating pretty good modern English, but it's quite offensive.
+ - The model's output has mostly the same meaning as the input, but with minor grammatical mistakes.
+ - The model is making up elaborate narrative details that don't appear in the original text.
+
+# Question 1.e (/4): Which .generate() parameter seemed to help the most in addressing the main shortcoming(s) that you noticed in the part1 model's output?
+# (This question is multiple choice.  Delete all but the correct answer).
+machine_translation_with_t5_1_1_e: 
+ - num_beams
+ - do_sample
+ - top_k
+ - top_p
+ - temperature
+ - no_repeat_ngram_size
+
+# Question 1.f (/3): What is the overall BLEU score that you achieved on the test set for the part1 model?
+machine_translation_with_t5_1_1_f: 
+- your answer
+
+# Question 1.g (/3): What is the mean BLEURT score that you achieved on the test set for the part1 model?
+machine_translation_with_t5_1_1_g: 
+- your answer
+
+
+# ------------------------------------------------------------------
+# | Section (2): Small Pre-trained T5 Model (42 points)  | 
+# ------------------------------------------------------------------
+
+# Question 2.a (/5): What is the final validation loss that you were able to achieve for the part2 model after training for 4 epochs?
+machine_translation_with_t5_2_2_a: 
+- your answer
+
+# Question 2.b (/4): What is the overall BLEU score that you achieved on the test set for the part2 model?
+machine_translation_with_t5_2_2_b: 
+- your answer
+
+# Question 2.c (/4): What is the mean BLEURT score that you achieved on the test set for the part2 model?
+machine_translation_with_t5_2_2_c: 
+- your answer
+
+# Question 2.d (/4): What do you notice about the part2 model's output? It should be much better than the part1 model's output. But the translations still probably don't perfectly match the reference human translations. What does the part2 model seem to still be doing poorly?
+# (This question is multiple choice.  Delete all but the correct answer).
+machine_translation_with_t5_2_2_d: 
+ - The generated translations are gibberish.
+ - The generated translations are written in a far more casual style than the reference human translations.
+ - The generated translations mean something completely different from the input text and reference translations.
+ - The generated translations are too similar to the input text, and haven't been rephrased as much as the reference human translations.
+
+# Question 2.e (/4): What is the modern style classifier score that you got for the part2 model's generated translations?
+machine_translation_with_t5_2_2_e: 
+- your answer
+
+# Question 2.f (/4): What is the modern style classifier score that you got for the human reference translations?
+machine_translation_with_t5_2_2_f: 
+- your answer
+
+# Question 2.g (/4): What is the modern style classifier score that you got for the original Shakespeare text?
+machine_translation_with_t5_2_2_g: 
+- your answer
+
+# Question 2.h (/3): What do you notice about differences between these scores, and what does that tell you about what the part2 model is doing?
+# (This question is multiple choice.  Delete all but the correct answer).
+machine_translation_with_t5_2_2_h: 
+ - The part2 model is generating output that is way more modern, casual, and younger generation speak than the human translations.
+ - The part2 model is generating output that looks about as modern as the human translations, even if it doesn't always mean the same thing.
+ - The part2 model is generating output that is partly modernized, more modern than the original Shakespeare, but still not as modern as the human references.
+ - The part2 model is generating output that is still pretty much the same style as the original Shakespeare text.
+
+# Question 2.i (/3): Which decoder strategy seemed to increase the modern style score the most?
+# (This question is multiple choice.  Delete all but the correct answer).
+machine_translation_with_t5_2_2_i: 
+ - Using a stricter option to always choose the highest predicted possibility output (e.g. beam search, or small k or p when using sampling).
+ - Using a looser sampling method to allow the model to choose more varied output (e.g. top-k or top-p rather than beam search, especially with higher k or p and/or higher temperature).
+
+# Question 2.j (/3): What happens to the other evaluation metrics when you try to increase the modern style score by varying the decoder strategy discussed in 2.i?
+# (This question is multiple choice.  Delete all but the correct answer).
+machine_translation_with_t5_2_2_j: 
+ - BLEU and BLEURT both seem to be positively correlated with the modern style score, when changing the decoder strategy.
+ - BLEU and BLEURT both seem to be negatively correlated with the modern style score, when changing the decoder strategy.
+ - BLEU seems to move with the modern style score, but BLEURT seems to go the other direction.
+ - BLEURT seems to move with the modern style score, but BLEU seems to go the other direction.
+
+# Question 2.k (/4): Why do you think the relationship in question 2.j is happening?
+# (This question is multiple choice.  Delete all but the correct answer).
+machine_translation_with_t5_2_2_k: 
+ - A stricter decoder strategy makes the model more likely to output the best translation, which is good for BLEU, BLEURT, and modern style objectives.
+ - A looser decoder strategy gives the model more freedom to find a good modern style translation, which should also end up saying more of the same things in the same way as the human translation.
+ - A stricter decoder strategy makes the model more likely to output a translation that has correct exact words and style, increasing BLEU and modern style scores, but might not mean the same thing as the human translation.
+ - A looser decoder strategy gives the model more freedom to choose more modern style words, which the pre-trained model is more familiar with, but that freedom can make the model less likely to end up with the exact same words or meaning as the human translation.
+ - A stricter decoder strategy makes the model more likely to choose more of the exact same words as used in the dataset, but not necessarily in the same order, so the meaning and style don't end up being as close to the human translation.
+
+
+# ------------------------------------------------------------------
+# | Section (3): Adding Supplementary Paraphrase Dataset (14 points)  | 
+# ------------------------------------------------------------------
+
+# Question 3.a (/3): What is the overall BLEU score that you achieved on the test set for the part3 model?
+machine_translation_with_t5_3_3_a: 
+- your answer
+
+# Question 3.b (/3): What is the mean BLEURT score that you achieved on the test set for the part3 model?
+machine_translation_with_t5_3_3_b: 
+- your answer
+
+# Question 3.c (/3): What is the modern style classifier score that you got for the part3 model's generated translations?
+machine_translation_with_t5_3_3_c: 
+- your answer
+
+# Question 3.d (/5): How do the part3 model's evaluation scores and output compare to the part2 model? You MUST answer in your notebook.
+machine_translation_with_t5_3_3_d: 
+- your answer
+
+
+
+###################################################################
+###################################################################
+## Summarization Test (7.5 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): T5 for generic summarization (2.5 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1.1 (/0.5): What num_beams value gives you the most readable output?
+summarization_test_1_1_1: 
+- your answer
+
+# Question 1.2 (/0.5): Which no_repeat_ngram_size gives the most readable output?
+summarization_test_1_1_2: 
+- your answer
+
+# Question 1.3 (/0.5): What min_length value gives you the most readable output?
+summarization_test_1_1_3: 
+- your answer
+
+# Question 1.4 (/0.5): Which max_new_tokens value gives the most readable output?
+summarization_test_1_1_4: 
+- your answer
+
+# Question 1.5 (/0.5): What is the ROUGE-L score associated with your most readable candidate?
+summarization_test_1_1_5: 
+- your answer
+
+
+# ------------------------------------------------------------------
+# | Section (2): Pegasus for headline summarization (2.5 points)  | 
+# ------------------------------------------------------------------
+
+# Question 2.1 (/0.5): What num_beams value gives you the most readable output?
+summarization_test_2_2_1: 
+- your answer
+
+# Question 2.2 (/0.5): Which no_repeat_ngram_size gives the most readable output?
+summarization_test_2_2_2: 
+- your answer
+
+# Question 2.3 (/0.5): What min_length value gives you the most readable output?
+summarization_test_2_2_3: 
+- your answer
+
+# Question 2.4 (/0.5): Which max_new_tokens value gives the most readable output?
+summarization_test_2_2_4: 
+- your answer
+
+# Question 2.5 (/0.5): What is the ROUGE-L score associated with your most readable candidate?
+summarization_test_2_2_5: 
+- your answer
+
+
+# ------------------------------------------------------------------
+# | Section (3): Pegasus for longer generation (2.5 points)  | 
+# ------------------------------------------------------------------
+
+# Question 3.1 (/0.5): What num_beams value gives you the most readable output?
+summarization_test_3_3_1: 
+- your answer
+
+# Question 3.2 (/0.5): Which no_repeat_ngram_size gives the most readable output?
+summarization_test_3_3_2: 
+- your answer
+
+# Question 3.3 (/0.5): What min_length value gives you the most readable output?
+summarization_test_3_3_3: 
+- your answer
+
+# Question 3.4 (/0.5): Which max_new_tokens value gives the most readable output?
+summarization_test_3_3_4: 
+- your answer
+
+# Question 3.5 (/0.5): What is the ROUGE-L score associated with your most readable candidate?
+summarization_test_3_3_5: 
+- your answer
+
+
+
+###################################################################
+###################################################################
+## Summarization LLM Test (6.5 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (1): Llama for  summarization (6.5 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1.1 (/3.5): What is the number of words in your prompt once you've met the scoring criteria?
+summarization_llm_test_1_1_1: 
+- your answer
+
+# Question 1.2 (/1): What is the avg ROUGE-1 score you get once you've met the scoring criteria?
+summarization_llm_test_1_1_2: 
+- your answer
+
+# Question 1.3 (/1): What is the avg ROUGE-2 score you get once you've met the scoring criteria?
+summarization_llm_test_1_1_3: 
+- your answer
+
+# Question 1.4 (/1): What is the avg ROUGE-L score you get once you've met the scoring criteria?
+summarization_llm_test_1_1_4: 
+- your answer

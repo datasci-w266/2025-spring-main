@@ -119,8 +119,8 @@ Office hours are for the whole class; students from any section are welcome to a
   <td>
   <!-- <strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>  -->
   Assignment&nbsp;3
-  <td><strong>Question Answering</strong></td>
-  <td>Feb&nbsp;15</td>
+  <td><strong>Machine Translation</strong></td>
+  <td>Feb&nbsp;14</td>
   <td>Mar&nbsp;02</td>
   <td>15%</td>
 </tr>
@@ -319,13 +319,24 @@ will be released after the last live session of the week (on Friday) and due app
 
 
 
-<tr>
+<tr><!-- Project Proposals -->
   <td><strong><a href="../project/#project-proposal" target="_blank">Project&nbsp;Proposal</a></strong>
   <td>
   <strong><a href="../project" target="_blank">Final Project Guidelines</a></strong>
   </td>
   <td></td>
   <td>Feb&nbsp;16</td>
+</tr>
+
+<tr> <!-- a3 -->
+  <td><strong><a href="../assignment/a3" target="_blank">Assignment&nbsp;3</a></strong>
+  <td><strong>Assignment 3</strong>
+  <ul>
+    <li>Machine Translation
+    <li>Summarization
+  </ul></td>
+  <td>Feb&nbsp;14</td>
+  <td>Mar&nbsp;02</td>
 </tr>
 
 
