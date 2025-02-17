@@ -528,6 +528,8 @@ will be released after the last live session of the week (on Friday) and due app
     <li>Read: <a href="https://research.googleblog.com/2016/05/announcing-syntaxnet-worlds-most.html" target="_blank">SyntaxNet (Parsey McParseface)</a>
   <li>Read: <a href="https://aclanthology.org/D14-1082.pdf" target="_blank">A Fast and Accurate Dependency Parser using Neural Networks</a> (Chen & Manning 2014)
   <li>Read: <a href="https://aclanthology.org/P17-1076.pdf" target="_blank">A Minimal Span-Based Neural Constituency Parser</a> (Stern et al. 2017)
+      <li><em>Skim:</em> <a href="https://arxiv.org/pdf/2412.13663" target="_blank">Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast,
+Memory Efficient, and Long Context Finetuning and Inference</a>
     <li><em>Skim:</em> <a href="http://www.nltk.org/book/ch08.html" target="_blank">NLTK book chapter 8 (analyzing sentence structure)</a>
   <li><em>Optional:</em> <a href="http://www.nltk.org/book/ch05.html" target="_blank">NLTK book chapter 5: Categorizing and Tagging Words</a>
   <li><em>Optional:</em> <a href="https://arxiv.org/pdf/1104.2086.pdf" target="_blank">A Universal Part-of-Speech Tagset</a>
