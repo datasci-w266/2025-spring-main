@@ -26,10 +26,7 @@ email: carrieli@berkeley.edu
 
 main_components:
   - Term project
-  - Midterm examination
   - Assignments
-  - Participation
-  - Final examination
 
 # 2.  What are the three graded components of the project?
 # (Delete the incorrect answers.)
@@ -54,21 +51,18 @@ late_penalty: 10%age points
 
 # 7. 48 hours after the deadline, what is the maximum assignment grade?
 # (Replace the 0 with the right answer.)
-past_hard_deadline_grade: 2
+past_hard_deadline_grade: 0
 
 # 8. Which of the following are appropriate places to ask questions that other students may be interested in?
 # (Delete the incorrect answers.)
 general_questions:
   - Public post on Ed Discussion
-  - Private post on Ed Discussion addressed to all instructors so they can load balance
 
 # 9. Which of the following are appropriate places to ask questions that cannot be made
 #    public (e.g. ones that contain assignment solutions?)
 # (Delete the incorrect answers.)
 private_questions:
-  - Private post on Ed Discussion addressed to your live session instructor
-  - Instructor email list
-  - Your live session instructor's berkeley email address
+  - Private post on Ed Discussion addressed to all instructors so they can load balance
 
 # 10. If you need something beyond the late day policy, what do you do?
 # (Delete the incorrect answers.)
