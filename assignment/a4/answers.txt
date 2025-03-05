@@ -1,0 +1,97 @@
+# Write your short answers in this file, replacing the placeholders as appropriate.
+# This assignment consists of 1 parts for a total of 27 points.
+# For numerical answers, copy and paste at least 5 significant figures.
+# - Image Captioning (23 points)
+# - Correct submission (2 point)
+# - Answer file parses (2 point)
+
+
+
+###################################################################
+###################################################################
+## Image Captioning (23 points)
+###################################################################
+###################################################################
+
+
+# ------------------------------------------------------------------
+# | Section (A): Show and Tell (5 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): Which parts of the CNN were fine-tuned during the image caption generation process?
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_a_1: 
+ - The top feed forward layer of the CNN
+
+# Question 2 (/1): What was the biggest concern when deciding how to train the model?
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_a_2: 
+ - Overfitting
+
+# Question 3 (/1): How was the encoded image representation input into the decoder?
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_a_3: 
+ - As the first word embedding input
+
+# Question 4 (/1): Which metric did the authors primarily use to determine success?
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_a_4: 
+ - BLEU
+
+# Question 5 (/1): What beam width is equivalent to selecting the highest probability word in each decoding step?
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_a_5: 
+ - 1
+
+
+# ------------------------------------------------------------------
+# | Section (B): Show, Tell and Attend (2 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/1): What is the model paying attention to?
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_b_1: 
+ - Vectors are extracted from a layer of the CNN with a receptive field (image region contributing to it) smaller than the full image
+
+# Question 2 (/1): What do the figures with highlight shading represent in Figures 2, 3 and 5?
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_b_2: 
+ - The part of the image contributing to the word currently being decoded
+
+
+# ------------------------------------------------------------------
+# | Section (C): CLIP (8 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/2): What is the animal tag you selected?
+image_captioning_c_1: Dog
+
+# Question 2 (/2): What is the transportation tag you selected?
+image_captioning_c_2: Truck
+
+# Question 3 (/2): What is the probability associated with the most likely caption for image 1?
+image_captioning_c_3: 0.9989
+
+# Question 4 (/2): What is the probability associated with the most likely caption for image 2?
+image_captioning_c_4: 0.9401
+
+
+# ------------------------------------------------------------------
+# | Section (D): BLIP (8 points)  | 
+# ------------------------------------------------------------------
+
+# Question 1 (/2): Does the BLIP caption win or do other captions win for image
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_d_1: 
+ - BLIP Caption
+
+# Question 2 (/2): Does the BLIP caption win or do other captions win for image
+# (This question is multiple choice.  Delete all but the correct answer).
+image_captioning_d_2: 
+ - Other caption
+
+# Question 3 (/2): What is the probability associated with the most likely caption for image 1?
+image_captioning_d_3: 0.7011
+
+# Question 4 (/2): What is the probability associated with the most likely caption for image 2?
+image_captioning_d_4: 0.9998
