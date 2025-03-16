@@ -118,8 +118,8 @@ Between Week 2 and Week 4, the instructors will be holding special discussion se
 Please write your proposal in a Google Doc (shared with comment access to anyone with the link) and submit a link to you proposal via [this form](https://forms.gle/bzdo4nsqJ6Dm9h2QA).  We'll provide feedback as in-line comments, which can be more convenient than an email thread.
 _Please NO Microsoft Word documents!_
 
-## Task Allocation (for teams of 2 or 3)
-In week 10, each team of 2 or 3 members will submit a Google Doc that enumerates the work each individual in the team is performing as part of the project. Each team member must work on at least one model. The shared document will be submitted via [this form.](https://forms.gle/)
+## Authors' Contributions (for teams of 2 or 3)
+If your project team consists of 2 or 3 members, you **must** submit an authors' contributions section at the end of your paper. In this section you will enumerate the work each individual in the team performed as part of the project. Each team member must work on at least one model. Failure to do this may result in a point deduction for the group.
 
 ## Milestone (optional)
 
